@@ -20,5 +20,5 @@ function actualCashBank(cash){
     return cashBank
 }
 
-totalAmount()
+amount = totalAmount()
 actualCashBank(cashBank)
