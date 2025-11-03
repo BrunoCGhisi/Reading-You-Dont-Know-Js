@@ -18,7 +18,7 @@ console.log(obj["c"]);   // false
 
 console.log("************")
 
-obj.a =  obj.a + ", Bruno Ghisi"
+obj.a = obj.a + ", Bruno Ghisi"
 obj.b = obj.b / 2
 obj.c = true
 
