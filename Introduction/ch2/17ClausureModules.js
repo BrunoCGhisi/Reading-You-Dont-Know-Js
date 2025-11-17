@@ -7,10 +7,11 @@ function User(){
     }
 
     return {
-        login: doLogin
+        login: doLogin,
+        getUsername: () => username //Public function
     }
 }
 
 let fred = User();
 fred.login("Fred", "abcd1234")
-console.log(fred.login);
+console.log(fred.getUsername());
