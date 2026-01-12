@@ -26,4 +26,4 @@ function doSomething1(d) {
 
 let c;
 
-doSomething( 2 ); // 15
+doSomething1( 2 ); // 15
